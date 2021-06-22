@@ -19,7 +19,7 @@ library(egor)
 library(sna)
 
 # Specify your folder path here 
-folderPath <- "/Folder/Path"
+folderPath <- "/Folder/Path/"
 
 # Read each type of file into list, combine into single data frame
 alterData <- folderPath %>%
