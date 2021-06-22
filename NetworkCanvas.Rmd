@@ -1,0 +1,104 @@
+---
+title: "Loading data into R from Network Canvas - Networks 2021"
+output:
+  html_notebook: default
+  html_document:
+    df_print: paged
+---
+
+This Notebook provides basic input and example analysis of data exported from the [*Network Canvas*](http://networkcanvas.com) software. The example will use simulated data from the following network canvas [protocol file](need to add github link to protocol file) which can be opened in the Network Canvas Interviewer or Architect apps.
+
+### Import and clean the data 
+
+The first step is to load in data from the github repository. We use the *egor* package to load in the data, using examples from an egor [vignette](https://cran.r-project.org/web/packages/egor/vignettes/using_egor.html)
+
+
+```{r,message = FALSE}
+# Load egor
+library(egor)
+library(sna)
+
+# Specify your folder path here 
+folderPath <- "/Folder/Path"
+
+# Read each type of file into list, combine into single data frame
+alterData <- folderPath %>%
+  list.files(full.names=TRUE,pattern="attributeList_Person.csv") %>%
+  lapply(read.csv) %>%
+  bind_rows()
+
+edgelistData <- folderPath %>%
+  list.files(full.names=TRUE,pattern="edgeList_friends.csv") %>%
+  lapply(read.csv) %>%
+  bind_rows()
+
+egoData <- folderPath %>%
+  list.files(full.names=TRUE,pattern="ego.csv") %>%
+  lapply(read.csv) %>%
+  bind_rows()
+```
+
+Now we can examine if the data looks like it should from the alter file. As you'll see, the alter data file contains a unique alter identifier (i.e., "networkCanvasUUID") as well as a unique ego identifier (i.e., "networkCanvasEgoUUID") which will both be used to define the egor object.
+```{r}
+head(alterData)
+```
+
+We'll want to do a little data cleaning by recoding family member status and communication frequency, before loading it into an egor object.
+```{r}
+alterData$family_member2 <- alterData$family_member
+alterData$family_member2[is.na(alterData$family_member2) | alterData$family_member2==""] <- "false"
+
+alterData$communication_freq2 <- alterData$communication_freq
+alterData$communication_freq2[alterData$communication_freq2==-1] <- "Less than \n monthly"
+alterData$communication_freq2[alterData$communication_freq2==1] <- "Monthly"
+alterData$communication_freq2[alterData$communication_freq2==2] <- "Weekly"
+alterData$communication_freq2[alterData$communication_freq2==3] <- "Daily"
+
+```
+
+After loading and cleaning the data, we still need to make it into an egor object
+```{r}
+# Load the file into R
+egorNetworkCanvas <- egor(alters = alterData,
+           egos = egoData,
+           aaties = edgelistData,
+           ID.vars = list(
+             ego = "networkCanvasEgoUUID",
+             alter = "networkCanvasUUID",
+             source = "networkCanvasSourceUUID",
+             target = "networkCanvasTargetUUID"))
+```
+
+### Data visualization
+
+Lets start with a simple visualization of one ego network. To do this we'll first convert it to a 'network' object and use the gplot function from the sna package. This visualization shows the new node labels and colors each node by the communication frequency with the participant.
+```{r}
+
+firstEgoNet <- as_network(egorNetworkCanvas)[[2]]
+firstEgoNet%v%"vertex.names" <- firstEgoNet%v%"name"
+
+colorScheme <- c( "#CC6677", "#117733", "#AA4499", 
+                  "#6699CC")
+
+# A little recoding to get a color for each frequency
+nodeColors <- ifelse(firstEgoNet%v%"communication_freq"=="-1",colorScheme[1],
+                    ifelse(firstEgoNet%v%"communication_freq"=="1",colorScheme[2],
+                           ifelse(firstEgoNet%v%"communication_freq"=="2",colorScheme[3],
+                                  colorScheme[4])))
+
+gplot(firstEgoNet,
+       usearrows = FALSE,
+       label = firstEgoNet%v%"name",
+       displaylabels = TRUE,
+       vertex.col=nodeColors,
+       edge.col="gray")
+```
+
+As you can see, this only shows a single egocentric network. However, the egor package has several functions that facilitate comparison of networks across ego nets. For example, here is a visualization showing each ego net with nodes location being dependent on their communciation with the participant and their status as a family member (i.e., true/false).
+
+```{r}
+# Make a visualization displaying both frequency of communication and family member status
+plot(egorNetworkCanvas, venn_var = "family_member2", pie_var = "communication_freq2", type = "egogram")
+```
+
+## Going to do some basic analysis here. Maybe degree distributions and a bar chart showing communication frequency 
