@@ -6,9 +6,9 @@ output:
   html_notebook: default
 ---
 
-This Notebook provides basic input and example analysis of data exported from the [*Network Canvas*](http://networkcanvas.com) software. The example will use simulated data from the following network canvas [protocol file](https://github.com/pfsj/loading-data-network-canvas/blob/main/SB21_workshop_protocol_1.netcanvas) which can be opened in the Network Canvas Interviewer or Architect apps.
+This Notebook provides basic input and example analysis of data exported from the [*Network Canvas*](http://networkcanvas.com) software. The example will use simulated data from the following network canvas [protocol file](https://github.com/pfsj/loading-data-network-canvas/blob/main/SB22_workshop_protocol.netcanvas) which can be opened in the Network Canvas Interviewer or Architect apps.
 
-### Import and clean the data 
+### Import and clean the data
 
 The first step is to load in data. We use the *egor* package to load in the data, using examples from an egor [vignette](https://cran.r-project.org/web/packages/egor/vignettes/using_egor.html)
 
@@ -21,7 +21,7 @@ library(ggplot2)
 
 # This assumes the this file is in the same folder as your data
 # If the you have data somewhere else, set the path here:
-folderPath <- getwd()
+folderPath <- paste0('/Users/pfj185/Documents/github/loading-data-network-canvas/networkCanvasExport')
 
 # Read each type of file into list, combine into single data frame
 alterData <- folderPath %>%
@@ -77,10 +77,10 @@ egorNetworkCanvas <- egor(alters = alterData,
 Lets start with a simple visualization of one ego network. To do this we'll first convert it to a 'network' object and use the gplot function from the sna package. This visualization shows the new node labels and colors each node by the communication frequency with the participant.
 ```{r}
 
-oneEgoNet <- as_network(egorNetworkCanvas)[[2]]
+oneEgoNet <- as_network(egorNetworkCanvas)[[1]]
 oneEgoNet%v%"vertex.names" <- oneEgoNet%v%"name"
 
-colorScheme <- c( "#CC6677", "#117733", "#AA4499", 
+colorScheme <- c( "#CC6677", "#117733", "#AA4499",
                   "#6699CC")
 
 # A little recoding to get a color for each frequency
@@ -101,8 +101,8 @@ As you can see, this only shows a single egocentric network. However, the egor p
 
 ```{r}
 # Make a visualization displaying both frequency of communication and family member status
-plot(egorNetworkCanvas, venn_var = "family_member2", 
-     pie_var = "communication_freq2", 
+plot(egorNetworkCanvas, venn_var = "family_member2",
+     pie_var = "communication_freq2",vertex_label_var="nodeID",
      type = "egogram")
 ```
 
@@ -120,26 +120,25 @@ We can also use a traditional package, such as *sna*, to look at these networks 
 ```{r}
 networkNetworkCanvas <- as_network(egorNetworkCanvas)
 
-histData <- networkNetworkCanvas %>% 
+histData <- networkNetworkCanvas %>%
   lapply(degree,cmode="indegree") %>%
   unlist(recursive = FALSE) %>%
   as.data.frame()
 
 histData$degree <- as.numeric(histData$".")
 
-ggplot(histData, aes(x=degree)) + 
-    geom_histogram(color="black", fill="white",bins=5) + 
+ggplot(histData, aes(x=degree)) +
+    geom_histogram(color="black", fill="white",bins=5) +
     theme_classic()
 
 ```
 
-Finally, we often want to examine how an ego attribute may be associated with ego network characteristics. In this example we look at the association between the level of reported enjoyment of conferences and the density of their ego network.   
+Finally, we often want to examine how an ego attribute may be associated with ego network characteristics. In this example we look at the association between the level of reported enjoyment of conferences and the density of their ego network.
 ```{r}
 ego_density(egorNetworkCanvas) %>%
   full_join(egorNetworkCanvas$ego,by=".egoID") %>%
-  ggplot(aes(x = enjoy_conferences, y = density)) + 
-    geom_point(size=5) + 
+  ggplot(aes(x = enjoy_conferences, y = density)) +
+    geom_point(size=5) +
     geom_text(label=egorNetworkCanvas$ego$networkCanvasCaseID, aes(vjust=c(-1.5))) +
     ylim(0,0.6) + theme_classic()
 ```
-
