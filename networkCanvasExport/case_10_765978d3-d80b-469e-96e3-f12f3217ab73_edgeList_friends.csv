@@ -1,0 +1,4 @@
+edgeID,from,to,networkCanvasEgoUUID,networkCanvasUUID,networkCanvasSourceUUID,networkCanvasTargetUUID
+1,4,1,497263ab-22fd-4d30-b07d-59eb43fb7d31,3e613073-caa8-4a7a-b3b3-5c3c7c968140,fd61bda4-4a37-4d97-8fb3-d0f1615265a9,7ad4d899-db95-47f1-9597-23e1c874b40e
+2,5,5,497263ab-22fd-4d30-b07d-59eb43fb7d31,149e9d3e-a3c4-45d2-a65b-cce41a73cb0d,a249eab7-ae6e-4eba-a0b6-441a32a6f43e,a249eab7-ae6e-4eba-a0b6-441a32a6f43e
+3,3,6,497263ab-22fd-4d30-b07d-59eb43fb7d31,eb2c2701-5234-4fff-bf70-317d90cb90f0,b84d1934-1992-4ab1-a615-cb0ad9597ebc,a6acd83d-3cee-47a1-b90d-444db22860de

@@ -1,0 +1,17 @@
+nodeID,networkCanvasEgoUUID,networkCanvasUUID,name,communication_freq,layout_x,layout_y,family_member
+1,6cda6d02-3f8e-4dcc-827f-f4c00f26d0f7,ddf81109-72b8-4ada-be43-4a84bfc0d2b1,Neil Blick,2,0.413043,0.316488,false
+2,6cda6d02-3f8e-4dcc-827f-f4c00f26d0f7,ece5f5a0-74f8-49a7-bf50-67ef071986ba,Lorenzo Corkery,3,0.156947,0.958652,false
+3,6cda6d02-3f8e-4dcc-827f-f4c00f26d0f7,4c5fb0da-7bec-4880-be86-4b9fd2c967d4,Colin Rogahn,-1,0.8114,0.607916,true
+4,6cda6d02-3f8e-4dcc-827f-f4c00f26d0f7,0b677936-105d-49d6-b675-3c76eaa26320,Jessie Bosco,1,0.842606,0.113254,true
+5,6cda6d02-3f8e-4dcc-827f-f4c00f26d0f7,f880ac20-d17c-4879-8cd5-b8e605051dca,Mrs. Ida Bosco,-1,0.582133,0.142803,false
+6,6cda6d02-3f8e-4dcc-827f-f4c00f26d0f7,5a54b274-08ba-412d-9ea3-e2ff1cb2c76a,Roderick Carter,2,0.720215,0.533838,true
+7,6cda6d02-3f8e-4dcc-827f-f4c00f26d0f7,e1aed8d8-b1d7-4597-9f72-6e8bacbc6dd7,Warren Davis,2,0.399558,0.368217,true
+8,6cda6d02-3f8e-4dcc-827f-f4c00f26d0f7,ba6f3447-e3d1-4e45-b8bb-60ada7fa9feb,Jill Fahey III,1,0.830162,0.141572,true
+9,6cda6d02-3f8e-4dcc-827f-f4c00f26d0f7,e1c828a8-5304-451e-8f7d-dcceacd3d0ae,Judith Schneider,2,0.320077,0.93965,true
+10,6cda6d02-3f8e-4dcc-827f-f4c00f26d0f7,7b6ee612-881f-4e07-87d0-31928ac25313,Joy Aufderhar IV,2,0.174054,0.208386,false
+11,6cda6d02-3f8e-4dcc-827f-f4c00f26d0f7,496ade93-f53f-4150-8e4b-0c1a7e17a5c2,Florence Larson IV,1,0.427863,0.788995,false
+12,6cda6d02-3f8e-4dcc-827f-f4c00f26d0f7,9c667fcb-db1a-4d7c-90bc-6adf826bb720,Doyle Block,1,0.227013,0.025525,true
+13,6cda6d02-3f8e-4dcc-827f-f4c00f26d0f7,eeb488f0-86f6-44dd-8f23-07cfdce8a65f,Irvin Reynolds,1,0.505356,0.699367,false
+14,6cda6d02-3f8e-4dcc-827f-f4c00f26d0f7,2aa20fbc-5e19-4a67-bc81-94a0fd664986,Kristopher Aufderhar,3,0.607175,0.966419,false
+15,6cda6d02-3f8e-4dcc-827f-f4c00f26d0f7,b074f6d8-4d78-46b5-b24d-1b2f689cda14,Loretta Okuneva DVM,-1,0.430149,0.062024,true
+16,6cda6d02-3f8e-4dcc-827f-f4c00f26d0f7,b4335969-8545-4bc6-83a3-4d19d8494c11,Jessica Jast,2,0.471017,0.343962,true

@@ -1,0 +1,10 @@
+nodeID,networkCanvasEgoUUID,networkCanvasUUID,name,communication_freq,layout_x,layout_y,family_member
+1,251cb50e-69b0-48f4-9f80-35179c0bd10b,a0dac22c-37e7-4f84-a984-dd8adeae76dd,Miriam Sporer,3,0.781491,0.49648,true
+2,251cb50e-69b0-48f4-9f80-35179c0bd10b,036b910a-cecb-4993-a3d5-4968c52304df,Gertrude Dare,3,0.806291,0.084266,false
+3,251cb50e-69b0-48f4-9f80-35179c0bd10b,e2d0cd22-17c0-44ab-81bf-b8029e2145a0,Kara Ortiz,2,0.017702,0.563815,true
+4,251cb50e-69b0-48f4-9f80-35179c0bd10b,1c7b8490-06a8-4306-99f0-1248be173c5f,Dr. Tommie Kassulke,1,0.897838,0.965867,true
+5,251cb50e-69b0-48f4-9f80-35179c0bd10b,ae7f4519-6440-4a6f-b3c1-f8a9356dc00b,Dora Sanford V,-1,0.973251,0.424296,true
+6,251cb50e-69b0-48f4-9f80-35179c0bd10b,f2992d20-39f2-4f4f-9c2b-e60c12776b1e,Elmer Gerhold,-1,0.475433,0.013188,true
+7,251cb50e-69b0-48f4-9f80-35179c0bd10b,bd5a835f-243e-4c59-a986-124a4b3dbb48,Gerard West MD,2,0.424422,0.791873,false
+8,251cb50e-69b0-48f4-9f80-35179c0bd10b,baefb477-e670-4120-b91c-2a49cca3bea7,Yvonne Osinski,-1,0.25534,0.864003,false
+9,251cb50e-69b0-48f4-9f80-35179c0bd10b,13741df1-c376-43f9-9dd5-046f23db46b2,Jamie Goldner,-1,0.742193,0.516518,true

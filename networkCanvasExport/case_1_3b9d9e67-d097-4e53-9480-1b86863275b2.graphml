@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <graphml
+    xmlns="http://graphml.graphdrawing.org/xmlns"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+    http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"
+    xmlns:nc="http://schema.networkcanvas.com/xmlns">
+<key id="2d276c35-1fbb-461f-889f-c5fddeb3e7f6" attr.name="full_name" attr.type="string" for="graph"/>
+<key id="a928bb08-0c82-40f1-a96c-3f831637d32c" attr.name="dob" attr.type="string" for="graph"/>
+<key id="472dea89-a376-409b-b308-7c85dbc29ca3" attr.name="heard_about" attr.type="string" for="graph"/>
+<key id="896bf861-43d0-4535-b81a-38bf546e0a4d" attr.name="enjoy_conferences" attr.type="float" for="graph"/>
+<key id="label" attr.name="label" attr.type="string" for="all"/>
+<key id="networkCanvasType" attr.name="networkCanvasType" attr.type="string" for="all"/>
+<key id="networkCanvasUUID" attr.name="networkCanvasUUID" attr.type="string" for="all"/>
+<key id="7ad1e1cb-de01-44ed-85ca-fce592df236e" attr.name="name" attr.type="string" for="node"/>
+<key id="0d153b71-82bc-404d-8f03-b7f50ab821fc" attr.name="communication_freq" attr.type="int" for="node"/>
+<key id="612bd89c-a48b-43d0-9a59-87e667eeea34_X" attr.name="layout_X" attr.type="double" for="node"/>
+<key id="612bd89c-a48b-43d0-9a59-87e667eeea34_Y" attr.name="layout_Y" attr.type="double" for="node"/>
+<key id="77603c00-d9f3-4166-9097-2d9734e4fe26" attr.name="family_member" attr.type="boolean" for="node"/>
+<key id="networkCanvasTargetUUID" attr.name="networkCanvasTargetUUID" attr.type="string" for="edge"/>
+<key id="networkCanvasSourceUUID" attr.name="networkCanvasSourceUUID" attr.type="string" for="edge"/>
+<graph
+  edgedefault="undirected"
+  nc:caseId="case_1"
+  nc:sessionUUID="3b9d9e67-d097-4e53-9480-1b86863275b2"
+  nc:protocolName="SB22_workshop_protocol_1"
+  nc:protocolUID="0350cdcf41c104d26859cd1cef272306acd70f5bd0e29614d3cbeb6733300252"
+  nc:codebookHash="e729b369d74197e83c46f8f2476c7dd2a9d04932"
+  nc:sessionExportTime="2022-06-29T14:17:58.598Z"
+    nc:sessionStartTime="2022-06-29T03:43:32.222Z"
+    nc:sessionFinishTime="2022-06-29T14:08:23.586Z"
+>
+<data key="networkCanvasUUID">0d52ca28-f227-42f3-b248-4951befd26c1</data>
+<data key="2d276c35-1fbb-461f-889f-c5fddeb3e7f6">Winston Rice</data>
+<data key="a928bb08-0c82-40f1-a96c-3f831637d32c">2022-06-28</data>
+<data key="472dea89-a376-409b-b308-7c85dbc29ca3">Ut voluptatem occaecati commodi tempora. Sit expedita qui possimus et sed fuga laboriosam quis. Eos nobis debitis.</data>
+<data key="896bf861-43d0-4535-b81a-38bf546e0a4d">0.225</data>
+<node id="1">
+	<data key="networkCanvasUUID">849a8130-af47-41c9-9f1e-470a08ea2342</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Tabitha Beahan III</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Tabitha Beahan III</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">2</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.684077</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.014311</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">false</data>
+</node>
+<node id="2">
+	<data key="networkCanvasUUID">890b825b-8f50-44e2-bf5f-3d123bb5e910</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Cesar Rutherford</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Cesar Rutherford</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">1</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.76035</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.942718</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">false</data>
+</node>
+<node id="3">
+	<data key="networkCanvasUUID">2e72b4f7-0169-414b-a450-8296304ce0c0</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Lance Rowe</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Lance Rowe</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">1</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.597791</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.149646</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">false</data>
+</node>
+<node id="4">
+	<data key="networkCanvasUUID">3085334d-ed14-4e43-9240-3b57c16ee61b</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Dr. Kayla Mills</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Dr. Kayla Mills</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">3</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.963156</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.466146</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">false</data>
+</node>
+<node id="5">
+	<data key="networkCanvasUUID">4a0a7226-22dd-40d2-962c-044f1f36b7f4</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Claudia Bartell</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Claudia Bartell</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">1</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.369387</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.61956</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">true</data>
+</node>
+<node id="6">
+	<data key="networkCanvasUUID">c3b948eb-1acc-48d6-b8a1-d4aef9851fbe</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Robyn Smitham</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Robyn Smitham</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">2</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.324837</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.367711</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">false</data>
+</node>
+<node id="7">
+	<data key="networkCanvasUUID">49a24a5a-6e9e-4321-8ad1-ab3021323261</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Michele Gleason</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Michele Gleason</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">2</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.204036</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.364964</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">false</data>
+</node>
+<node id="8">
+	<data key="networkCanvasUUID">041cafb6-40d0-4f69-9169-34a6c86626c3</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Herbert Murazik</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Herbert Murazik</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">1</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.651575</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.967149</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">false</data>
+</node>
+<node id="9">
+	<data key="networkCanvasUUID">4dd2cc21-7b18-4382-a5b1-187296108594</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Ben Daugherty</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Ben Daugherty</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">-1</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.8547</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.945291</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">true</data>
+</node>
+<edge id="1" source="8" target="5">
+	<data key="networkCanvasUUID">b33d1936-caaa-471f-a267-5bff6f499886</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">041cafb6-40d0-4f69-9169-34a6c86626c3</data>
+	<data key="networkCanvasTargetUUID">4a0a7226-22dd-40d2-962c-044f1f36b7f4</data>
+</edge>
+<edge id="2" source="3" target="9">
+	<data key="networkCanvasUUID">ab77439b-ad2d-4a25-ad18-b5e01c21a388</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">2e72b4f7-0169-414b-a450-8296304ce0c0</data>
+	<data key="networkCanvasTargetUUID">4dd2cc21-7b18-4382-a5b1-187296108594</data>
+</edge>
+<edge id="3" source="1" target="8">
+	<data key="networkCanvasUUID">813a1a13-d486-43d3-a204-fc50fb824691</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">849a8130-af47-41c9-9f1e-470a08ea2342</data>
+	<data key="networkCanvasTargetUUID">041cafb6-40d0-4f69-9169-34a6c86626c3</data>
+</edge>
+<edge id="4" source="8" target="1">
+	<data key="networkCanvasUUID">2f9361b4-8ccf-4634-bc80-dd00e8c71f18</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">041cafb6-40d0-4f69-9169-34a6c86626c3</data>
+	<data key="networkCanvasTargetUUID">849a8130-af47-41c9-9f1e-470a08ea2342</data>
+</edge>
+<edge id="5" source="3" target="7">
+	<data key="networkCanvasUUID">1c4e35c6-5071-4c4f-9de4-ae53671157cd</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">2e72b4f7-0169-414b-a450-8296304ce0c0</data>
+	<data key="networkCanvasTargetUUID">49a24a5a-6e9e-4321-8ad1-ab3021323261</data>
+</edge>
+<edge id="6" source="4" target="3">
+	<data key="networkCanvasUUID">9dca4633-1fa7-4946-ad9a-95f5324f3d65</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">3085334d-ed14-4e43-9240-3b57c16ee61b</data>
+	<data key="networkCanvasTargetUUID">2e72b4f7-0169-414b-a450-8296304ce0c0</data>
+</edge>
+<edge id="7" source="4" target="7">
+	<data key="networkCanvasUUID">6ca0e4a5-bee2-4b84-8515-04613256b610</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">3085334d-ed14-4e43-9240-3b57c16ee61b</data>
+	<data key="networkCanvasTargetUUID">49a24a5a-6e9e-4321-8ad1-ab3021323261</data>
+</edge>
+<edge id="8" source="8" target="3">
+	<data key="networkCanvasUUID">d219f79a-6e5f-48f5-9c7c-97cce0cbf1b5</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">041cafb6-40d0-4f69-9169-34a6c86626c3</data>
+	<data key="networkCanvasTargetUUID">2e72b4f7-0169-414b-a450-8296304ce0c0</data>
+</edge>
+<edge id="9" source="2" target="9">
+	<data key="networkCanvasUUID">e5c515b5-483d-47f8-a0bc-86f15ca8f2a2</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">890b825b-8f50-44e2-bf5f-3d123bb5e910</data>
+	<data key="networkCanvasTargetUUID">4dd2cc21-7b18-4382-a5b1-187296108594</data>
+</edge>
+<edge id="10" source="1" target="2">
+	<data key="networkCanvasUUID">88952e53-4297-4e5a-869b-dec8a7150ab5</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">849a8130-af47-41c9-9f1e-470a08ea2342</data>
+	<data key="networkCanvasTargetUUID">890b825b-8f50-44e2-bf5f-3d123bb5e910</data>
+</edge>
+<edge id="11" source="5" target="4">
+	<data key="networkCanvasUUID">319c9cba-1491-41e8-96b7-b95bfb19f8a0</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">4a0a7226-22dd-40d2-962c-044f1f36b7f4</data>
+	<data key="networkCanvasTargetUUID">3085334d-ed14-4e43-9240-3b57c16ee61b</data>
+</edge>
+<edge id="12" source="3" target="1">
+	<data key="networkCanvasUUID">e320c853-e065-4897-89e5-d8ad6f31ec5e</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">2e72b4f7-0169-414b-a450-8296304ce0c0</data>
+	<data key="networkCanvasTargetUUID">849a8130-af47-41c9-9f1e-470a08ea2342</data>
+</edge>
+<edge id="13" source="8" target="8">
+	<data key="networkCanvasUUID">9f9b5e94-c5a8-406e-aaa2-4599515675d2</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">041cafb6-40d0-4f69-9169-34a6c86626c3</data>
+	<data key="networkCanvasTargetUUID">041cafb6-40d0-4f69-9169-34a6c86626c3</data>
+</edge>
+<edge id="14" source="2" target="1">
+	<data key="networkCanvasUUID">37fd4a00-6e2a-499a-a61c-78aef55d7286</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">890b825b-8f50-44e2-bf5f-3d123bb5e910</data>
+	<data key="networkCanvasTargetUUID">849a8130-af47-41c9-9f1e-470a08ea2342</data>
+</edge>
+<edge id="15" source="7" target="6">
+	<data key="networkCanvasUUID">36f7571f-e622-476c-9001-4b54dc6ad330</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">49a24a5a-6e9e-4321-8ad1-ab3021323261</data>
+	<data key="networkCanvasTargetUUID">c3b948eb-1acc-48d6-b8a1-d4aef9851fbe</data>
+</edge>
+<edge id="16" source="7" target="5">
+	<data key="networkCanvasUUID">caef778f-da30-4941-a4a3-3436dd9c8a99</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">49a24a5a-6e9e-4321-8ad1-ab3021323261</data>
+	<data key="networkCanvasTargetUUID">4a0a7226-22dd-40d2-962c-044f1f36b7f4</data>
+</edge>
+<edge id="17" source="1" target="3">
+	<data key="networkCanvasUUID">4a9ce1e4-da0d-43b8-8e2d-fb5cd75869a6</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">849a8130-af47-41c9-9f1e-470a08ea2342</data>
+	<data key="networkCanvasTargetUUID">2e72b4f7-0169-414b-a450-8296304ce0c0</data>
+</edge>
+<edge id="18" source="4" target="2">
+	<data key="networkCanvasUUID">6f5b7012-40b4-44c2-a280-7d8c87c36631</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">3085334d-ed14-4e43-9240-3b57c16ee61b</data>
+	<data key="networkCanvasTargetUUID">890b825b-8f50-44e2-bf5f-3d123bb5e910</data>
+</edge>
+</graph>
+</graphml>

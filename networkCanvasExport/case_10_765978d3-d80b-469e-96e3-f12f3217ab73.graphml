@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <graphml
+    xmlns="http://graphml.graphdrawing.org/xmlns"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+    http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"
+    xmlns:nc="http://schema.networkcanvas.com/xmlns">
+<key id="2d276c35-1fbb-461f-889f-c5fddeb3e7f6" attr.name="full_name" attr.type="string" for="graph"/>
+<key id="a928bb08-0c82-40f1-a96c-3f831637d32c" attr.name="dob" attr.type="string" for="graph"/>
+<key id="472dea89-a376-409b-b308-7c85dbc29ca3" attr.name="heard_about" attr.type="string" for="graph"/>
+<key id="896bf861-43d0-4535-b81a-38bf546e0a4d" attr.name="enjoy_conferences" attr.type="float" for="graph"/>
+<key id="label" attr.name="label" attr.type="string" for="all"/>
+<key id="networkCanvasType" attr.name="networkCanvasType" attr.type="string" for="all"/>
+<key id="networkCanvasUUID" attr.name="networkCanvasUUID" attr.type="string" for="all"/>
+<key id="7ad1e1cb-de01-44ed-85ca-fce592df236e" attr.name="name" attr.type="string" for="node"/>
+<key id="0d153b71-82bc-404d-8f03-b7f50ab821fc" attr.name="communication_freq" attr.type="int" for="node"/>
+<key id="612bd89c-a48b-43d0-9a59-87e667eeea34_X" attr.name="layout_X" attr.type="double" for="node"/>
+<key id="612bd89c-a48b-43d0-9a59-87e667eeea34_Y" attr.name="layout_Y" attr.type="double" for="node"/>
+<key id="77603c00-d9f3-4166-9097-2d9734e4fe26" attr.name="family_member" attr.type="boolean" for="node"/>
+<key id="networkCanvasTargetUUID" attr.name="networkCanvasTargetUUID" attr.type="string" for="edge"/>
+<key id="networkCanvasSourceUUID" attr.name="networkCanvasSourceUUID" attr.type="string" for="edge"/>
+<graph
+  edgedefault="undirected"
+  nc:caseId="case_10"
+  nc:sessionUUID="765978d3-d80b-469e-96e3-f12f3217ab73"
+  nc:protocolName="SB22_workshop_protocol_1"
+  nc:protocolUID="0350cdcf41c104d26859cd1cef272306acd70f5bd0e29614d3cbeb6733300252"
+  nc:codebookHash="e729b369d74197e83c46f8f2476c7dd2a9d04932"
+  nc:sessionExportTime="2022-06-29T14:17:58.619Z"
+    nc:sessionStartTime="2022-06-29T03:43:32.247Z"
+    nc:sessionFinishTime="2022-06-29T14:07:48.140Z"
+>
+<data key="networkCanvasUUID">497263ab-22fd-4d30-b07d-59eb43fb7d31</data>
+<data key="2d276c35-1fbb-461f-889f-c5fddeb3e7f6">Alfred Altenwerth</data>
+<data key="a928bb08-0c82-40f1-a96c-3f831637d32c">2022-06-28</data>
+<data key="472dea89-a376-409b-b308-7c85dbc29ca3">Laborum eaque rerum tempora tenetur autem temporibus expedita. Aliquid itaque eos aut. Ex autem explicabo occaecati. Ipsam harum similique quas sit. Eum omnis aut similique sit qui.</data>
+<data key="896bf861-43d0-4535-b81a-38bf546e0a4d">0.067</data>
+<node id="1">
+	<data key="networkCanvasUUID">7ad4d899-db95-47f1-9597-23e1c874b40e</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Daisy Hayes</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Daisy Hayes</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">1</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.505595</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.364215</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">true</data>
+</node>
+<node id="2">
+	<data key="networkCanvasUUID">869f9eb8-b09a-4161-8451-346e50631619</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Rogelio Lockman</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Rogelio Lockman</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">2</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.063525</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.860143</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">false</data>
+</node>
+<node id="3">
+	<data key="networkCanvasUUID">b84d1934-1992-4ab1-a615-cb0ad9597ebc</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Julie Sawayn Jr.</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Julie Sawayn Jr.</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">1</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.690261</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.617118</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">true</data>
+</node>
+<node id="4">
+	<data key="networkCanvasUUID">fd61bda4-4a37-4d97-8fb3-d0f1615265a9</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Ellis Prohaska</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Ellis Prohaska</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">3</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.412116</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.302632</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">true</data>
+</node>
+<node id="5">
+	<data key="networkCanvasUUID">a249eab7-ae6e-4eba-a0b6-441a32a6f43e</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Marcia Parisian</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Marcia Parisian</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">3</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.759652</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.166726</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">false</data>
+</node>
+<node id="6">
+	<data key="networkCanvasUUID">a6acd83d-3cee-47a1-b90d-444db22860de</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Gerald Schiller</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Gerald Schiller</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">2</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.664129</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.677587</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">false</data>
+</node>
+<node id="7">
+	<data key="networkCanvasUUID">8ae4d2c8-bdda-49d5-baa5-133ff3b8911b</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Misty Turner</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Misty Turner</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">-1</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.228748</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.103759</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">false</data>
+</node>
+<node id="8">
+	<data key="networkCanvasUUID">56bc2e66-bbbc-4710-b87d-d4e0ae62ec57</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Bernard Weissnat</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Bernard Weissnat</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">1</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.783385</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.090457</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">true</data>
+</node>
+<edge id="1" source="4" target="1">
+	<data key="networkCanvasUUID">3e613073-caa8-4a7a-b3b3-5c3c7c968140</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">fd61bda4-4a37-4d97-8fb3-d0f1615265a9</data>
+	<data key="networkCanvasTargetUUID">7ad4d899-db95-47f1-9597-23e1c874b40e</data>
+</edge>
+<edge id="2" source="5" target="5">
+	<data key="networkCanvasUUID">149e9d3e-a3c4-45d2-a65b-cce41a73cb0d</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">a249eab7-ae6e-4eba-a0b6-441a32a6f43e</data>
+	<data key="networkCanvasTargetUUID">a249eab7-ae6e-4eba-a0b6-441a32a6f43e</data>
+</edge>
+<edge id="3" source="3" target="6">
+	<data key="networkCanvasUUID">eb2c2701-5234-4fff-bf70-317d90cb90f0</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">b84d1934-1992-4ab1-a615-cb0ad9597ebc</data>
+	<data key="networkCanvasTargetUUID">a6acd83d-3cee-47a1-b90d-444db22860de</data>
+</edge>
+</graph>
+</graphml>

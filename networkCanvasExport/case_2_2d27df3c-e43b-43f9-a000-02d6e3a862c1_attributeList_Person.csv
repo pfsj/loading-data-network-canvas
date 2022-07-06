@@ -1,0 +1,10 @@
+nodeID,networkCanvasEgoUUID,networkCanvasUUID,name,communication_freq,layout_x,layout_y,family_member
+1,20cb9386-4fed-4bbc-959e-ac6307cec4f4,a9a4e466-f5c3-4bbc-9608-17081b33b0e2,Roderick Brown,2,0.842032,0.390233,true
+2,20cb9386-4fed-4bbc-959e-ac6307cec4f4,4aa18d33-b495-4c95-896f-c87aa8b786e8,Perry Nolan,1,0.635988,0.589359,true
+3,20cb9386-4fed-4bbc-959e-ac6307cec4f4,cb19eb28-9263-46dc-8f1b-9017b4072fac,Angela Denesik,3,0.691625,0.19403,false
+4,20cb9386-4fed-4bbc-959e-ac6307cec4f4,bfbf0052-eca9-4dd9-80f2-42c838e2fe09,Trevor Bogan,2,0.330525,0.765944,false
+5,20cb9386-4fed-4bbc-959e-ac6307cec4f4,d96cb9d5-0c56-46ce-b3de-0ff6f1de07e1,Terrence Rutherford,2,0.052831,0.790866,true
+6,20cb9386-4fed-4bbc-959e-ac6307cec4f4,f8fdbffb-afa0-4ee8-b946-a251b9f8d52a,Emmett Schaefer,2,0.913846,0.277442,true
+7,20cb9386-4fed-4bbc-959e-ac6307cec4f4,145b9e17-64a5-4671-af00-ec2b1aca4681,Everett O'Keefe,-1,0.815206,0.456614,false
+8,20cb9386-4fed-4bbc-959e-ac6307cec4f4,dd8b36a0-ad5c-47e8-8504-9c337af5cedf,Clayton Muller,1,0.112441,0.550923,false
+9,20cb9386-4fed-4bbc-959e-ac6307cec4f4,0213cba4-9039-440c-8afe-e0a73edfa28b,Faith Nader Jr.,-1,0.6397,0.086841,true

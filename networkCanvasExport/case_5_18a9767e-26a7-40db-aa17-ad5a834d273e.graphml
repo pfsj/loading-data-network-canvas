@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <graphml
+    xmlns="http://graphml.graphdrawing.org/xmlns"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+    http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"
+    xmlns:nc="http://schema.networkcanvas.com/xmlns">
+<key id="2d276c35-1fbb-461f-889f-c5fddeb3e7f6" attr.name="full_name" attr.type="string" for="graph"/>
+<key id="a928bb08-0c82-40f1-a96c-3f831637d32c" attr.name="dob" attr.type="string" for="graph"/>
+<key id="472dea89-a376-409b-b308-7c85dbc29ca3" attr.name="heard_about" attr.type="string" for="graph"/>
+<key id="896bf861-43d0-4535-b81a-38bf546e0a4d" attr.name="enjoy_conferences" attr.type="float" for="graph"/>
+<key id="label" attr.name="label" attr.type="string" for="all"/>
+<key id="networkCanvasType" attr.name="networkCanvasType" attr.type="string" for="all"/>
+<key id="networkCanvasUUID" attr.name="networkCanvasUUID" attr.type="string" for="all"/>
+<key id="7ad1e1cb-de01-44ed-85ca-fce592df236e" attr.name="name" attr.type="string" for="node"/>
+<key id="0d153b71-82bc-404d-8f03-b7f50ab821fc" attr.name="communication_freq" attr.type="int" for="node"/>
+<key id="612bd89c-a48b-43d0-9a59-87e667eeea34_X" attr.name="layout_X" attr.type="double" for="node"/>
+<key id="612bd89c-a48b-43d0-9a59-87e667eeea34_Y" attr.name="layout_Y" attr.type="double" for="node"/>
+<key id="77603c00-d9f3-4166-9097-2d9734e4fe26" attr.name="family_member" attr.type="boolean" for="node"/>
+<key id="networkCanvasTargetUUID" attr.name="networkCanvasTargetUUID" attr.type="string" for="edge"/>
+<key id="networkCanvasSourceUUID" attr.name="networkCanvasSourceUUID" attr.type="string" for="edge"/>
+<graph
+  edgedefault="undirected"
+  nc:caseId="case_5"
+  nc:sessionUUID="18a9767e-26a7-40db-aa17-ad5a834d273e"
+  nc:protocolName="SB22_workshop_protocol_1"
+  nc:protocolUID="0350cdcf41c104d26859cd1cef272306acd70f5bd0e29614d3cbeb6733300252"
+  nc:codebookHash="e729b369d74197e83c46f8f2476c7dd2a9d04932"
+  nc:sessionExportTime="2022-06-29T14:17:58.608Z"
+    nc:sessionStartTime="2022-06-29T03:43:32.234Z"
+    nc:sessionFinishTime="2022-06-29T14:08:54.057Z"
+>
+<data key="networkCanvasUUID">dd469149-7c2d-4f2f-838c-76b9932a6afe</data>
+<data key="2d276c35-1fbb-461f-889f-c5fddeb3e7f6">Gayle Bins</data>
+<data key="a928bb08-0c82-40f1-a96c-3f831637d32c">2022-06-28</data>
+<data key="472dea89-a376-409b-b308-7c85dbc29ca3">Voluptatem laborum modi non doloremque iste in unde in enim. Aperiam aut facilis qui voluptatum saepe sed adipisci voluptatem. Quia necessitatibus a quibusdam laboriosam voluptatum occaecati quidem ut qui. Similique cum commodi repudiandae deleniti at est ipsum. Dolores voluptas nihil consequuntur maxime sint labore voluptate quas.</data>
+<data key="896bf861-43d0-4535-b81a-38bf546e0a4d">0.133</data>
+<node id="1">
+	<data key="networkCanvasUUID">52e96a2b-0524-4db0-9f99-64c458ae001b</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Caroline Boyle</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Caroline Boyle</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">1</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.696295</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.385677</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">false</data>
+</node>
+<node id="2">
+	<data key="networkCanvasUUID">9cbbd296-fa20-4a05-a56c-26aa40f27321</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Nick MacGyver Jr.</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Nick MacGyver Jr.</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">1</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.880942</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.113064</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">true</data>
+</node>
+<node id="3">
+	<data key="networkCanvasUUID">028382b1-97ad-4692-a962-804704fbfbae</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Bobby Mohr</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Bobby Mohr</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">-1</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.200391</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.241897</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">false</data>
+</node>
+<node id="4">
+	<data key="networkCanvasUUID">9f527527-71aa-4404-8451-3b0867b147d2</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Erik Johnston</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Erik Johnston</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">2</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.900726</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.527596</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">true</data>
+</node>
+<node id="5">
+	<data key="networkCanvasUUID">84c09d9a-5c4d-44ec-a993-e4fb058a6f39</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Dr. Toby O'Keefe</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Dr. Toby O'Keefe</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">2</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.523702</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.819228</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">false</data>
+</node>
+<node id="6">
+	<data key="networkCanvasUUID">53605b2d-5413-4d1b-b07a-9e7c48257819</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Ruth Abshire</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Ruth Abshire</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">2</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.962186</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.323457</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">false</data>
+</node>
+<node id="7">
+	<data key="networkCanvasUUID">9f1f9300-dc71-4c57-bb6a-07c083266c60</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Ms. Melinda Simonis</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Ms. Melinda Simonis</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">2</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.738636</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.667553</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">false</data>
+</node>
+<node id="8">
+	<data key="networkCanvasUUID">47774ad1-2742-45f0-9f59-c94c0c77c2f6</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Derek Wolff</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Derek Wolff</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">3</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.026142</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.720346</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">true</data>
+</node>
+<node id="9">
+	<data key="networkCanvasUUID">1b600877-7589-4141-a84c-bd2885728c45</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Benjamin Schmeler</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Benjamin Schmeler</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">3</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.471954</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.12308</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">true</data>
+</node>
+<node id="10">
+	<data key="networkCanvasUUID">9a951e3d-9ad9-4c7d-ad77-43cc2f51fc9f</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Marguerite Daniel</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Marguerite Daniel</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">2</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.45091</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.555024</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">false</data>
+</node>
+<node id="11">
+	<data key="networkCanvasUUID">1b3d6ed2-195c-4ef2-864d-6b47b9b8f3e8</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Caroline Hegmann</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Caroline Hegmann</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">3</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.181866</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.759584</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">true</data>
+</node>
+<node id="12">
+	<data key="networkCanvasUUID">78694556-4ebd-4050-8c41-be6f0a590f0b</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Mr. Bradley Mayer</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Mr. Bradley Mayer</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">1</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.604107</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.867244</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">true</data>
+</node>
+<node id="13">
+	<data key="networkCanvasUUID">4a95fd77-1332-4eff-a037-84c07d66505e</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Jesus Grimes</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Jesus Grimes</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">-1</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.860247</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.47627</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">true</data>
+</node>
+<node id="14">
+	<data key="networkCanvasUUID">57c766de-dfcf-4027-8327-165b98c0da05</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Myra Davis</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Myra Davis</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">3</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.721965</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.739097</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">false</data>
+</node>
+<node id="15">
+	<data key="networkCanvasUUID">99bd3175-b2af-4edc-80f2-72049d0b9118</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Maurice Cole</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Maurice Cole</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">3</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.819104</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.635453</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">false</data>
+</node>
+<node id="16">
+	<data key="networkCanvasUUID">e5e69d8c-7e86-41f7-9c6d-f537ad1f4491</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Duane Stoltenberg</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Duane Stoltenberg</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">-1</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.887318</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.081305</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">false</data>
+</node>
+<node id="17">
+	<data key="networkCanvasUUID">988adf16-00ea-47fc-98c0-cf9ac994695c</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Mr. Antonio Grimes</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Mr. Antonio Grimes</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">2</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.2752</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.355238</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">false</data>
+</node>
+<node id="18">
+	<data key="networkCanvasUUID">713a43c6-5464-4c6a-aa7f-d680c3f6a247</data>
+	<data key="networkCanvasType">Person</data>
+	<data key="label">Gary D'Amore</data>
+	<data key="7ad1e1cb-de01-44ed-85ca-fce592df236e">Gary D'Amore</data>
+	<data key="0d153b71-82bc-404d-8f03-b7f50ab821fc">1</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_X">0.012579</data>
+	<data key="612bd89c-a48b-43d0-9a59-87e667eeea34_Y">0.076792</data>
+	<data key="77603c00-d9f3-4166-9097-2d9734e4fe26">true</data>
+</node>
+<edge id="1" source="3" target="13">
+	<data key="networkCanvasUUID">3f790566-4778-4e79-b8d1-634687b1716f</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">028382b1-97ad-4692-a962-804704fbfbae</data>
+	<data key="networkCanvasTargetUUID">4a95fd77-1332-4eff-a037-84c07d66505e</data>
+</edge>
+<edge id="2" source="4" target="6">
+	<data key="networkCanvasUUID">f6674e37-f525-4873-a285-d88fc8011d7e</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">9f527527-71aa-4404-8451-3b0867b147d2</data>
+	<data key="networkCanvasTargetUUID">53605b2d-5413-4d1b-b07a-9e7c48257819</data>
+</edge>
+<edge id="3" source="16" target="6">
+	<data key="networkCanvasUUID">aa9d620a-4807-4c51-a4c8-aa21bba37dd2</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">e5e69d8c-7e86-41f7-9c6d-f537ad1f4491</data>
+	<data key="networkCanvasTargetUUID">53605b2d-5413-4d1b-b07a-9e7c48257819</data>
+</edge>
+<edge id="4" source="10" target="17">
+	<data key="networkCanvasUUID">a41761cf-0f85-44c0-bb2d-1c77e65f53d3</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">9a951e3d-9ad9-4c7d-ad77-43cc2f51fc9f</data>
+	<data key="networkCanvasTargetUUID">988adf16-00ea-47fc-98c0-cf9ac994695c</data>
+</edge>
+<edge id="5" source="8" target="18">
+	<data key="networkCanvasUUID">17d90aef-54e9-4646-9e58-522145ae63c2</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">47774ad1-2742-45f0-9f59-c94c0c77c2f6</data>
+	<data key="networkCanvasTargetUUID">713a43c6-5464-4c6a-aa7f-d680c3f6a247</data>
+</edge>
+<edge id="6" source="13" target="3">
+	<data key="networkCanvasUUID">8f4f4d76-21be-4c5f-bf96-f45dd239c899</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">4a95fd77-1332-4eff-a037-84c07d66505e</data>
+	<data key="networkCanvasTargetUUID">028382b1-97ad-4692-a962-804704fbfbae</data>
+</edge>
+<edge id="7" source="14" target="10">
+	<data key="networkCanvasUUID">17c68e18-1707-4ee9-aaf2-7de868ef12b4</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">57c766de-dfcf-4027-8327-165b98c0da05</data>
+	<data key="networkCanvasTargetUUID">9a951e3d-9ad9-4c7d-ad77-43cc2f51fc9f</data>
+</edge>
+<edge id="8" source="8" target="11">
+	<data key="networkCanvasUUID">007339ea-027a-4b7e-adab-d55a6bdccbee</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">47774ad1-2742-45f0-9f59-c94c0c77c2f6</data>
+	<data key="networkCanvasTargetUUID">1b3d6ed2-195c-4ef2-864d-6b47b9b8f3e8</data>
+</edge>
+<edge id="9" source="4" target="13">
+	<data key="networkCanvasUUID">4881c74e-a210-40c8-b05d-f06aa7134daa</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">9f527527-71aa-4404-8451-3b0867b147d2</data>
+	<data key="networkCanvasTargetUUID">4a95fd77-1332-4eff-a037-84c07d66505e</data>
+</edge>
+<edge id="10" source="13" target="14">
+	<data key="networkCanvasUUID">93333d86-bfae-449c-ab53-a39f583406ce</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">4a95fd77-1332-4eff-a037-84c07d66505e</data>
+	<data key="networkCanvasTargetUUID">57c766de-dfcf-4027-8327-165b98c0da05</data>
+</edge>
+<edge id="11" source="11" target="4">
+	<data key="networkCanvasUUID">7b73844f-2a74-4abc-a592-fac302b53ce4</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">1b3d6ed2-195c-4ef2-864d-6b47b9b8f3e8</data>
+	<data key="networkCanvasTargetUUID">9f527527-71aa-4404-8451-3b0867b147d2</data>
+</edge>
+<edge id="12" source="3" target="11">
+	<data key="networkCanvasUUID">7c114e57-86ee-403b-a700-7932ae72c3fb</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">028382b1-97ad-4692-a962-804704fbfbae</data>
+	<data key="networkCanvasTargetUUID">1b3d6ed2-195c-4ef2-864d-6b47b9b8f3e8</data>
+</edge>
+<edge id="13" source="5" target="6">
+	<data key="networkCanvasUUID">f6409c58-d39a-4fee-92ab-366cc26498c2</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">84c09d9a-5c4d-44ec-a993-e4fb058a6f39</data>
+	<data key="networkCanvasTargetUUID">53605b2d-5413-4d1b-b07a-9e7c48257819</data>
+</edge>
+<edge id="14" source="4" target="14">
+	<data key="networkCanvasUUID">453c397b-b275-4772-8006-81c9a22b887e</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">9f527527-71aa-4404-8451-3b0867b147d2</data>
+	<data key="networkCanvasTargetUUID">57c766de-dfcf-4027-8327-165b98c0da05</data>
+</edge>
+<edge id="15" source="17" target="13">
+	<data key="networkCanvasUUID">ef7eba7a-0f24-4264-b4a6-68ab4808bcdd</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">988adf16-00ea-47fc-98c0-cf9ac994695c</data>
+	<data key="networkCanvasTargetUUID">4a95fd77-1332-4eff-a037-84c07d66505e</data>
+</edge>
+<edge id="16" source="17" target="2">
+	<data key="networkCanvasUUID">8de92f3e-17af-412a-881d-a699af040d17</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">988adf16-00ea-47fc-98c0-cf9ac994695c</data>
+	<data key="networkCanvasTargetUUID">9cbbd296-fa20-4a05-a56c-26aa40f27321</data>
+</edge>
+<edge id="17" source="11" target="17">
+	<data key="networkCanvasUUID">44d0bdcd-850c-4ef3-90d3-be223e305e39</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">1b3d6ed2-195c-4ef2-864d-6b47b9b8f3e8</data>
+	<data key="networkCanvasTargetUUID">988adf16-00ea-47fc-98c0-cf9ac994695c</data>
+</edge>
+<edge id="18" source="8" target="6">
+	<data key="networkCanvasUUID">87d90a6f-66ac-48f7-9950-5bf3db501314</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">47774ad1-2742-45f0-9f59-c94c0c77c2f6</data>
+	<data key="networkCanvasTargetUUID">53605b2d-5413-4d1b-b07a-9e7c48257819</data>
+</edge>
+<edge id="19" source="17" target="8">
+	<data key="networkCanvasUUID">5e133f6a-ee90-4a26-baf2-095992be19e1</data>
+	<data key="networkCanvasType">friends</data>
+	<data key="networkCanvasSourceUUID">988adf16-00ea-47fc-98c0-cf9ac994695c</data>
+	<data key="networkCanvasTargetUUID">47774ad1-2742-45f0-9f59-c94c0c77c2f6</data>
+</edge>
+</graph>
+</graphml>
